@@ -12,10 +12,25 @@
     }
     .banner-content form{
         flex-direction: column;
-        margin-top: 32px;
-        margin-right: 24px;
-        margin-left: 24px;
-        margin-bottom: 0px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 24px;
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+    .banner-content form .input-form-1{
+        width: 89%;
+        gap: 61%;
+        padding:15px 16px;
+    }
+    .banner-content form .input-form-2{
+        width: 89%;
+        gap: 45%;
+        padding:15px 16px;
+    }
+    .banner-content form input{
+        width: 89%;
+        padding:15px 16px;
     }
     .banner-content .title{
         padding-top: 30px;
@@ -26,11 +41,15 @@
         font-weight: 800;
         line-height: normal;
     }
-    .banner-content form>select{
-        width: 255px;
-    }
-    .banner-content form>input{
-        width: 255px;
+    .banner-content form button{
+        width: 89%;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
     .btn-common{
        padding: 16px 75px;
@@ -38,7 +57,7 @@
     }
     .banner-content{
         background-position: center;
-        height: 440px;
+        height: 480px;
     }
     .header-area .header-title{
         font-size: 21.543px;
@@ -149,6 +168,8 @@
 .lower-discount {
     width: 48%;
     height: 28%;
+    top: 56%;
+    left: 49%;
 }
 .lower-image {
     height: 300px;
@@ -168,7 +189,9 @@
     padding-right: 83px;
 }
 .simple-form{
-    padding: 24px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 .simple-form button{
     padding: 14px 112px;
@@ -200,4 +223,32 @@
 .customer-rating{
     text-align: center;
 }
+}
+@media screen and (min-width:660px) and (max-width:992px){
+    .header-nav{
+        display: none;
+    }
+    .header-special{
+        display: flex;
+    }
+    .popular{
+        flex-direction: column;
+     }
+     .popular h2{
+        text-align: center;
+     }
+     .simple-top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .simple-bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    .lower-discount{
+        top: 58%;
+    }
+    .customer-review{
+        text-align: center;
+    }
 }

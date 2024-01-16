@@ -1,0 +1,161 @@
+@media screen and (max-width:660px) {
+    .padding{
+       margin: 20px;
+       min-width: 335px;
+    }
+    
+    .header-nav{
+        display: none;
+    }
+    .header-special{
+        display: flex;
+    }
+    .banner-content form{
+        flex-direction: column;
+        margin-top: 32px;
+        margin-right: 24px;
+        margin-left: 24px;
+        margin-bottom: 0px;
+    }
+    .banner-content .title{
+        padding-top: 30px;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .banner-content form>select{
+        width: 255px;
+    }
+    .banner-content form>input{
+        width: 255px;
+    }
+    .btn-common{
+       padding: 16px 75px;
+       align-items: center;
+    }
+    .banner-content{
+        background-position: center;
+        height: 440px;
+    }
+    .header-area .header-title{
+        font-size: 21.543px;
+    }
+    .hero{
+        font-size: 21.543px;
+    }
+    .header-logo img{
+       width: 29px;
+    }
+.destination-img-section-1 ,.destination-img-section-2,.destination-img-section-3{
+       flex-direction: column;
+}
+.des img{
+   width: 100%;
+   height: 250px;
+   object-fit: cover;
+   border-radius: 16px;
+}
+.destination h2{
+    font-size: 20px;
+}
+.destination-item1::before{
+    font-size: 24px;
+}
+.destination-item2::before{
+    font-size: 24px;
+}
+.destination-item3::before{
+    font-size: 24px;
+}
+.destination-item4::before{
+    font-size: 24px;
+}
+.destination-item5::before{
+    font-size: 24px;
+}
+.destination-item6::before{
+    font-size: 24px;
+}
+.destination-item7::before{
+    font-size: 24px;
+}
+.popular{
+   flex-direction: column;
+}
+.popular img{
+    width: 100%;
+}
+.popular h2{
+    font-size: 20px;
+}
+.our-content-1{
+    flex-direction: column;
+}
+.our-content-card-1,.our-content-card-2,.our-content-card-3{
+    width: 100%;
+}
+.deals-content-1,.deals-content-3,.deals-content-2{
+    background-position: center;
+    border-radius: 16px;
+}
+.deals-content-main{
+    padding: 25px;
+    margin: 16px;
+    margin-top: 187px;
+}
+.deals-content-main h3{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.deals-content-main p{
+    height: 48px;
+    overflow: hidden;
+}
+
+.deals-content-main .deals-price{
+    font-size: 20px;
+
+}
+.deals-content-main button{
+    padding:8px 20px;
+    margin-bottom: 0px;
+}
+.deals-head h2{
+    font-size: 20px;
+}.our-main-text h2{
+    font-size: 20px;
+}
+#button-deals{
+    display: none;
+}
+.simple-top{
+    flex-direction: column;
+}
+.simple-bottom{
+    flex-direction: column;
+}
+.lower-discount {
+    width: 48%;
+    height: 28%;
+}
+.lower-discount p{
+    font-size: 15.854px;
+}
+.lower-discount h2{
+    font-size: 21.138px;
+}
+.simple-form input{
+    padding: 16px 20px;
+    padding-right: 83px;
+}
+.simple-form{
+    padding: 24px;
+}
+.simple-form button{
+    padding: 14px 112px;
+}
+}

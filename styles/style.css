@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,800;1,400&family=Poppins:wght@400;500;600;700;800;900&family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.padding {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.header-area .header-title {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.hero {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    margin-right: 16px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 44px;
+}
+
+.header-nav a {
+    color: var(--Dark-02, #424247);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    color: #FF5400;
+    transition: 0.8s;
+}
+
+.header-special {
+    display: none;
+}
+
+.banner-content {
+    background-image: url("../Images/Group\ 13.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    position: relative;
+    height: 500px;
+}
+
+.banner-content::before {
+    position: absolute;
+    content: "";
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.banner-content .title {
+    color: #FFF;
+    position: relative;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    padding-top: 106px;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.banner-content .banner-paragraph {
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 676px;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    opacity: 0.8;
+}
+
+.btn-common {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 16px 34px;
+    color: #FFF;
+    gap: 8px;
+    font-size: 16px;
+    border: none;
+    font-weight: 800;
+    font-family: Mulish;
+}
+
+.btn-common i {
+    margin-right: 8px;
+}
+.destination{
+    margin-top: 100px;
+}
+.destination-head h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination-head p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.des {
+    display: grid;
+    gap: 24px;
+}
+
+.destination-img-section-1 {
+    display: flex;
+    gap: 24px;
+}
+
+.destination-img-section-2 {
+    display: flex;
+    gap: 24px;
+}
+.destination-img-section-3 {
+    display: flex;
+    gap: 24px;
+}
+
+
+
+.destination-item1 {
+    position: relative;
+}
+.destination-item1 img{
+    width: 100%;
+}
+.destination-item2 img{
+    width: 100%;
+}
+.destination-item3 img{
+    width: 100%;
+}
+.destination-item4 img{
+    width: 100%;
+}
+.destination-item5 img{
+    width: 100%;
+}
+.destination-item6 img{
+    width: 100%;
+}
+.destination-item7 img{
+    width: 100%;
+}
+.destination-item1::before {
+    content: "Maldives";
+    top: 43%;
+    left: 40%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.destination-item2 {
+    position: relative;
+}
+
+.destination-item2::before {
+    content: "Indonesia";
+    top: 43%;
+    left: 40%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.destination-item3 {
+    position: relative;
+}
+
+.destination-item3::before {
+    content: "Srilanka";
+    top: 43%;
+    left: 37%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.destination-item4 {
+    position: relative;
+}
+
+.destination-item4::before {
+    content: "North America";
+    top: 43%;
+    left: 32%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.destination-item5 {
+    position: relative;
+}
+
+.destination-item5::before {
+    content: "Kashmir";
+    top: 43%;
+    left: 32%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.destination-item6 {
+    position: relative;
+}
+
+.destination-item6::before {
+    content: "Bangladesh";
+    top: 43%;
+    left: 32%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.destination-item7 {
+    position: relative;
+}
+
+.destination-item7::before {
+    content: "Bandarban";
+    top: 43%;
+    left: 40%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.destination img{
+    height: 100%;
+}
+.popular{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.popular-text{
+    max-width: 577px;
+}
+.popular-text li,p{
+   margin-top: 24px;
+   color: #5A5A5D;
+   font-family: Mulish;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px; /* 162.5% */
+}
+.popular-text h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-text button{
+   margin-top: 32px;
+}
+.our-section{
+    margin-top: 100px;
+}
+.our-content-card-1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: calc((100% - 20px)/2);
+    padding: 32px;
+}
+.our-content-card-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: calc((100% - 20px)/2);
+    padding: 32px;
+ }
+ .our-content-card-3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: calc((100% - 20px)/2);
+    padding: 32px;
+    margin: 0 auto;
+    margin-top: 24px;
+ }
+ .our-content-1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+ }
+.our-section img{
+    width: 64px;
+    height: 64px;
+}
+.our-main-text{
+    max-width: 643px;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-main-text h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.deals{
+    margin-top: 100px;
+}
+.deals-content-1{
+    background-image: url("../Images/Group\ 39.png");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    
+}
+.deals-content-main{
+    max-width: 580px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 56px;
+    padding: 50px;
+    border: none;
+}
+.deals-content-main span i{
+    margin-right: 8px;
+    color: #FF5400;
+}
+.deals-content-main span{
+    margin-right: 24px;
+    margin-bottom: 0px;
+}
+.deals-content-main h3{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+.deals-content-main p{
+    margin-top: 0px;
+}
+.deals-price{
+    margin: 16px 0px;
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.deals-content-2{
+    background-image: url("../Images/Group\ 40.png");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    margin-top: 24px;
+    
+}
+.deals-content-3{
+    background-image: url("../Images/Group\ 39.png");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    margin-top: 24px;
+}
+.deals-head{
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.deals-head h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+#button-deals{
+    max-width: 210px;
+    margin: 0px auto;
+    margin-top: 48px;
+    display: block;
+}
+.simple{
+    margin-top: 100px;
+}
+.simple-top{
+    display: flex;
+    gap: 28px;
+    
+}
+.simple-top video{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.simple-content{
+    max-width: 532px;
+}
+.simple-content h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    max-width: 448px;
+}
+.simple-content p{
+     margin-bottom: 24px;
+}
+.simple-content li{
+    margin-bottom: 24px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    max-width: 518px;
+}
+.simple-content button{
+    margin-top: 8px;
+    padding: 14px 42px;
+}
+
+.video{
+        max-width: 610px;
+}
+.simple-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 24px;
+}
+.simple-form{
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding-bottom: 0px;
+}
+.simple-form input{
+    padding: 16px 160px 16px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border:none;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+    
+}
+.simple-form p{
+    max-width: 350px;
+}
+.simple-form input::placeholder{
+    color: rgba(19, 19, 24, 0.30);
+}
+.simple-form button{
+    padding: 14px 150px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.simple-form hr{
+    margin-top: 24px;
+    border-color: rgba(19, 19, 24, 0.10);
+    max-width: 378px;
+}
+.lower-discount{
+    width: 48%;
+    height: 28%;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    height: 120px;
+    position: absolute;
+    top: 61%;
+    left: 49%;
+    right:0;
+    bottom: 0;
+    transform: rotate(-21deg);
+}
+.lower-discount p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+}
+.lower-discount h2{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+.lower-image{
+    position: relative;
+}
+.lower-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

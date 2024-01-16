@@ -132,6 +132,14 @@
 #button-deals{
     display: none;
 }
+.simple-content h2{
+    font-size: 20px;
+    max-width: 250px;
+}
+.simple-content li{
+    width: 335px;
+    margin-left: 10px;
+}
 .simple-top{
     flex-direction: column;
 }
@@ -142,11 +150,18 @@
     width: 48%;
     height: 28%;
 }
+.lower-image {
+    height: 300px;
+}
+.lower-image img {
+    height: 100%;
+    border-radius: 15px;
+}
 .lower-discount p{
     font-size: 15.854px;
 }
 .lower-discount h2{
-    font-size: 21.138px;
+    font-size: 18px;
 }
 .simple-form input{
     padding: 16px 20px;

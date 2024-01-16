@@ -591,3 +591,16 @@ body {
     height: 100%;
     object-fit: cover;
 }
+.footer{
+ background: rgba(19, 19, 24, 0.05);;
+}
+.footer-logo{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+.footer-content{
+   padding:110px 0;
+}

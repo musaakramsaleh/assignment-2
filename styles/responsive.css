@@ -173,4 +173,31 @@
 .simple-form button{
     padding: 14px 112px;
 }
+.footer-content{
+    padding:20px;
+} 
+.footer-content .footer-logo{
+    margin-top: 20px;
+}
+.footer-logo{
+    margin-top: 0px;
+}
+.copyright{
+    margin-bottom: 12px;
+    margin-top: 27px;
+}
+.footer-img{
+    margin-bottom: 14px;
+    margin-top: -20px;
+}
+.customer-review{
+    flex-direction: column;
+}
+.customer-head h2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.customer-rating{
+    text-align: center;
+}
 }
